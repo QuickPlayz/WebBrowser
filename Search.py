@@ -1,4 +1,5 @@
 import webbrowser
-print('Search (ie. https://www.google.com)')
+print('--Search--')
 url = input()
-webbrowser.open(url)
+url2 = 'https://www.google.com/search?q='
+webbrowser.open("".join([url2, url]))
